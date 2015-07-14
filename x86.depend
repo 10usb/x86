@@ -1,0 +1,481 @@
+# depslib dependency file v1.0
+1423416870 source:i:\programming\sdl\01_hello_sdl.cpp
+	<SDL.h>
+	<stdio.h>
+
+1394257193 c:\sdl2\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_config.h
+	"SDL_platform.h"
+
+1394257193 c:\sdl2\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\begin_code.h
+
+1394257193 c:\sdl2\include\close_code.h
+
+1394257193 c:\sdl2\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1394257193 c:\sdl2\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1394257193 c:\sdl2\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1394257193 c:\sdl2\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394257193 c:\sdl2\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1435597713 source:i:\programming\sdl\main.cpp
+	<SDL.h>
+	<stdio.h>
+
+1436476936 source:i:\programming\sdl\main.c
+	<SDL.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<video.h>
+	<machine.h>
+	<386/cpu386.h>
+	<386/bios.h>
+
+1436019463 source:i:\programming\sdl\video.c
+	"video.h"
+	<string.h>
+	<stdlib.h>
+
+1436388788 i:\programming\sdl\include\video.h
+
+1436217345 source:i:\programming\sdl\machine.c
+	"machine.h"
+
+1436388705 i:\programming\sdl\include\machine.h
+	<memory.h>
+	<cpu.h>
+	<io.h>
+	<video.h>
+	<stdio.h>
+
+1436028262 i:\programming\sdl\include\memory.h
+
+1436888539 i:\programming\sdl\include\cpu.h
+
+1436022622 source:i:\programming\sdl\cpu.c
+	"cpu.h"
+
+1436028274 source:i:\programming\sdl\memory.c
+	"memory.h"
+	<stdlib.h>
+
+1436864781 source:i:\programming\sdl\386\cpu386.c
+	"386/cpu386.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1436377604 i:\programming\sdl\include\386\cpu386.h
+	<cpu.h>
+	<machine.h>
+	<386/interrupt.h>
+
+1436043965 i:\programming\sdl\include\386\cpu386_16.h
+	<386/cpu386.h>
+
+1436379307 source:i:\programming\sdl\386\cpu386_16.c
+	"386/cpu386_16.h"
+	<stdio.h>
+
+1436079392 source:i:\programming\sdl\interrupt.c
+	"interrupt.h"
+
+1436212200 i:\programming\sdl\include\interrupt.h
+
+1436090060 i:\programming\sdl\include\io.h
+
+1436085349 source:i:\programming\sdl\io.c
+	"io.h"
+
+1436093880 source:i:\programming\sdl\386\biosinterrupts.cpp
+	"386/biosinterrupts.h"
+
+1436093877 i:\programming\sdl\include\386\biosinterrupts.h
+
+1436390936 source:i:\programming\sdl\386\bios.c
+	"386/bios.h"
+	<memory.h>
+
+1436214319 i:\programming\sdl\include\386\bios.h
+	<386/cpu386.h>
+
+1436377454 i:\programming\sdl\include\386\interrupt.h
+
+1436383096 source:i:\programming\sdl\vesa.c
+	"vesa.h"
+
+1436386229 i:\programming\sdl\include\vesa.h
+
+1436085349 source:i:\programming\sdl\src\io.c
+	"io.h"
+
+1436217345 source:i:\programming\sdl\src\machine.c
+	"machine.h"
+
+1436901698 source:i:\programming\sdl\src\main.c
+	<SDL.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<video.h>
+	<machine.h>
+	<x86/cpu.h>
+	<x86/bios.h>
+	<x86/dos.h>
+
+1436896554 source:i:\programming\sdl\src\memory.c
+	"memory.h"
+	<stdlib.h>
+	<string.h>
+
+1436019463 source:i:\programming\sdl\src\video.c
+	"video.h"
+	<string.h>
+	<stdlib.h>
+
+1436891473 source:i:\programming\sdl\src\x86\address.c
+	"address.h"
+
+1436891046 i:\programming\sdl\include\x86\address.h
+	<x86/cpu.h>
+
+1436898271 i:\programming\sdl\include\x86\cpu.h
+	<cpu.h>
+	<machine.h>
+	<x86/interrupt.h>
+	<x86/opcode.h>
+
+1436889356 i:\programming\sdl\include\x86\interrupt.h
+	<x86/cpu.h>
+
+1436898374 source:i:\programming\sdl\src\x86\cpu.c
+	<x86/cpu.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"opcode.c"
+
+1436884502 source:i:\programming\sdl\src\x86\opcode.c
+	"opcode.h"
+
+1436894451 i:\programming\sdl\include\x86\opcode.h
+	<x86/cpu.h>
+
+1436896364 i:\programming\sdl\src\x86\opcode.c
+	"opcode.h"
+
+1436899209 source:i:\programming\sdl\src\x86\bios.c
+	<x86/bios.h>
+	<memory.h>
+	<video.h>
+
+1436899221 i:\programming\sdl\include\x86\bios.h
+	<x86/cpu.h>
+
+1436901627 source:i:\programming\sdl\src\x86\dos.c
+	<x86/dos.h>
+
+1436901078 i:\programming\sdl\include\x86\dos.h
+	<x86/cpu.h>
+
