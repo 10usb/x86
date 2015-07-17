@@ -1,0 +1,28 @@
+OPCODE 00
+LABEL add
+ARGS rm8, r8
+
+OPCODE 04
+LABEL add
+ARGS r8:a, i8
+
+OPCODE 0F
+TABLE
+	OPCODE AF
+	LABEL imul
+	ARGS r8, rm8
+ENDTABLE
+
+OPCODE 66
+SPECIAL operandsize
+
+OPCODE 67
+SPECIAL addresssize
+
+OPCODE B8
+LABEL mov
+ARGS r:a, i
+
+OPCODE CD
+LABEL int
+ARGS i8

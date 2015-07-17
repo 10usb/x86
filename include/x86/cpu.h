@@ -24,7 +24,11 @@ struct x86_CPU {
     unsigned short fs;
     unsigned short gs;
     unsigned int eip;
-    unsigned int veip;
+    struct {
+        unsigned int eip;
+        unsigned int operandsize;
+        unsigned int addresssize;
+    } run;
     union {
         unsigned short flags;
         unsigned int eflags;
@@ -53,7 +57,7 @@ struct x86_CPU {
     };
 
     struct x86_Interrupt * interrupts[2][256];
-    struct x86_Opcode opcodes[256];
+    struct x86_Opcode * opcodes;
 };
 
 void x86_CPU_Attach(struct Machine * machine);

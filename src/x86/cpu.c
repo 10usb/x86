@@ -133,7 +133,7 @@ inline int x86_CPU_StoreDword(struct x86_CPU * cpu, unsigned int value, unsigned
 
 int x86_CPU_Execute(struct x86_CPU * cpu){
     unsigned char opcode = 0x90;
-    if(x86_CPU_LoadByte(cpu, &opcode, X86_CS, cpu->veip++)) return 1;
+    if(x86_CPU_LoadByte(cpu, &opcode, X86_CS, cpu->run.eip++)) return 1;
 
     return cpu->opcodes[opcode].callback(&cpu->opcodes[opcode], cpu);
 }
@@ -142,9 +142,9 @@ void x86_CPU_Run(struct x86_CPU * cpu){
     int error = 0;
     while(1){
         // if interrupts enabled and has interrupts, run interrupt
-        cpu->veip = cpu->eip;
+        cpu->run.eip = cpu->eip;
         if((error = x86_CPU_Execute(cpu))!=0) break;
-        cpu->eip = cpu->veip;
+        cpu->eip = cpu->run.eip;
     }
 
     if(error){
@@ -186,10 +186,8 @@ void x86_CPU_Attach(struct Machine * machine){
     cpu->machine = machine;
     machine->cpu = (void*)cpu;
 
-    int i=0;
-    while(i<256){
-        cpu->opcodes[i].code = i;
-        cpu->opcodes[i].callback = x86_InvalidOpcode;
-        i++;
-    }
+    cpu->opcodes = x86_Opcode_Create(256);
+    x86_DASM_Load(cpu->opcodes, "opcodes.info");
+
+    cpu->opcodes[0xB8].callback = x86_Mov_A_Imm;
 }

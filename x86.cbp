@@ -48,6 +48,7 @@
 		<Unit filename="include/x86/address.h" />
 		<Unit filename="include/x86/bios.h" />
 		<Unit filename="include/x86/cpu.h" />
+		<Unit filename="include/x86/dasm.h" />
 		<Unit filename="include/x86/dos.h" />
 		<Unit filename="include/x86/interrupt.h" />
 		<Unit filename="include/x86/opcode.h" />
@@ -73,6 +74,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/x86/cpu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/x86/dasm.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/x86/dos.c">

@@ -21,13 +21,14 @@ struct x86_Address {
         unsigned char value;
     } sib;
     union {
-        unsigned char displ8;
-        unsigned short displ16;
-        unsigned int displ32;
+        char displ8;
+        short displ16;
+        int displ32;
     };
     unsigned int offset;
 };
 
+static inline int x86_Address_Load(struct x86_Address * address, int addresssize);
 static inline int x86_Address_LoadB(struct x86_Address * address, struct x86_CPU * cpu);
 static inline int x86_Address_LoadW(struct x86_Address * address, struct x86_CPU * cpu);
 static inline int x86_Address_LoadD(struct x86_Address * address, struct x86_CPU * cpu);

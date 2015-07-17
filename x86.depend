@@ -479,3 +479,121 @@
 1436901078 i:\programming\sdl\include\x86\dos.h
 	<x86/cpu.h>
 
+1436390936 source:i:\programming\x86\386\bios.c
+	"386/bios.h"
+	<memory.h>
+
+1436214319 i:\programming\x86\include\386\bios.h
+	<386/cpu386.h>
+
+1436377604 i:\programming\x86\include\386\cpu386.h
+	<cpu.h>
+	<machine.h>
+	<386/interrupt.h>
+
+1436888539 i:\programming\x86\include\cpu.h
+
+1436388705 i:\programming\x86\include\machine.h
+	<memory.h>
+	<cpu.h>
+	<io.h>
+	<video.h>
+	<stdio.h>
+
+1436028262 i:\programming\x86\include\memory.h
+
+1436090060 i:\programming\x86\include\io.h
+
+1436388788 i:\programming\x86\include\video.h
+
+1436377454 i:\programming\x86\include\386\interrupt.h
+
+1436864781 source:i:\programming\x86\386\cpu386.c
+	"386/cpu386.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1436085349 source:i:\programming\x86\src\io.c
+	"io.h"
+
+1436217345 source:i:\programming\x86\src\machine.c
+	"machine.h"
+
+1437134943 source:i:\programming\x86\src\main.c
+	<SDL.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<video.h>
+	<machine.h>
+	<x86/cpu.h>
+	<x86/bios.h>
+	<x86/dos.h>
+
+1437139454 i:\programming\x86\include\x86\cpu.h
+	<cpu.h>
+	<machine.h>
+	<x86/interrupt.h>
+	<x86/opcode.h>
+
+1436889356 i:\programming\x86\include\x86\interrupt.h
+	<x86/cpu.h>
+
+1437137880 i:\programming\x86\include\x86\opcode.h
+	<x86/cpu.h>
+
+1436899221 i:\programming\x86\include\x86\bios.h
+	<x86/cpu.h>
+
+1436901078 i:\programming\x86\include\x86\dos.h
+	<x86/cpu.h>
+
+1436896554 source:i:\programming\x86\src\memory.c
+	"memory.h"
+	<stdlib.h>
+	<string.h>
+
+1436019463 source:i:\programming\x86\src\video.c
+	"video.h"
+	<string.h>
+	<stdlib.h>
+
+1436891473 source:i:\programming\x86\src\x86\address.c
+	"address.h"
+
+1437138712 i:\programming\x86\include\x86\address.h
+	<x86/cpu.h>
+
+1436899209 source:i:\programming\x86\src\x86\bios.c
+	<x86/bios.h>
+	<memory.h>
+	<video.h>
+
+1437139767 source:i:\programming\x86\src\x86\cpu.c
+	<x86/cpu.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"opcode.c"
+
+1437139814 i:\programming\x86\src\x86\opcode.c
+	<x86/opcode.h>
+	<x86/dasm.h>
+	<stdlib.h>
+	<string.h>
+
+1437063272 source:i:\programming\x86\src\x86\dos.c
+	<x86/dos.h>
+	<stdio.h>
+
+1437136146 i:\programming\x86\include\x86\dasm.h
+	<x86/cpu.h>
+	<x86/opcode.h>
+
+1437138837 source:i:\programming\x86\src\x86\dasm.c
+	<x86/dasm.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
